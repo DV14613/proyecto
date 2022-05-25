@@ -1,0 +1,1 @@
+<?php require_once BASE_RELATIVE_VIEWS . 'layouts/common/head.php'; ?>

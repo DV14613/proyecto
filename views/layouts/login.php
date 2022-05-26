@@ -9,7 +9,7 @@
     <link href="<?= BASE_ASSETS ?>css/style_login.css" rel="stylesheet">
     
 </head>
-<!--Coded with love by Mutiullah Samim-->
+
 <body>
 	<div class="container h-100">
 		<div class="d-flex justify-content-center h-100">
@@ -20,7 +20,7 @@
 					</div>
 				</div>
 				<div class="d-flex justify-content-center form_container">
-					<form action="dashboard">
+					<form action="<?= BASE_URL . 'Dashboard/dashboard'; ?>">
 						<div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>

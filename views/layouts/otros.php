@@ -24,36 +24,38 @@
                 </div>
 
                 <div class="row ">
+                    
                     <div class="col-12 col-lg-3 my-1">
                         <a href="">
                             <div class="card rojo">
-                                <div class="value"> Agregar Cliente <i class="bi bi-person-plus-fill"></i></div>
+                                <div class="value">¿Que servicios brindamos? <i class="bi bi-handbag-fill"></i></i></div>
+                            </div>
+                        </a>
+                    </div>
+                   
+                    <div class="col-12 col-lg-3 my-1">
+                        <a href="">
+                            <div class="card rojo">
+                                <div class="value">Gestiona tus productos  <i class="bi bi-cart-plus-fill"></i></div>
                             </div>
                         </a>
                     </div>
                     <div class="col-12 col-lg-3 my-1">
                         <a href="">
                             <div class="card rojo">
-                                <div class="value">Consultar Cliente <i class="bi bi-search"></i></div>
+                                <div class="value"> Resumen <i class="bi bi-cash-coin"></i></div>
                             </div>
                         </a>
                     </div>
                     <div class="col-12 col-lg-3 my-1">
                         <a href="">
                             <div class="card rojo">
-                                <div class="value">Facturar Servicio <i class="bi bi-scissors"></i></div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col-lg-3 my-1">
-                        <a href="">
-                            <div class="card rojo">
-                                <div class="value">Agregar Compra <i class="bi bi-cart4"></i></div>
+                                <div class="value">Estilistas <i class="bi bi-shop"></i></div>
                             </div>
                         </a>
                     </div>
                 </div>
-               
+              
         </div>
     </div>
 </body>

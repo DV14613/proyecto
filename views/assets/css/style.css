@@ -1,7 +1,8 @@
     
 body{
 
-    background-image:url("../img/wallpaper.jpg");
+    background-image:url("../img/fondo-dorado.jpg");
+    background-size: 100% auto;
     background-position: center;
     font-family: Inter, Arial, sans-serif;
     height: 100%;
@@ -29,21 +30,15 @@ body{
 }
 
 a.icono-menu{
-    color: white;
+    color: black;
     font-size: 40px;
     text-align: center;
     margin: auto;
 }
 a.icono-menu:hover{
-    color:#990000;
+    color:#d18420;
 }
-    .fondotabla{
-    background-image: url("../img/fondo.png");
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
     
-   }
    .container a i{
     color: black;
     font-size: 30px;
@@ -55,37 +50,6 @@ a.icono-menu:hover{
     height: 50px;
     color:white;
    }
-
-   .rojo{
-    background: linear-gradient(90deg, rgba(79,79,79,1) 0%, rgba(129,129,129,1) 100%);
-  color: white;}
-   .rojo:hover{
-    background: linear-gradient(90deg, rgba(153,0,0,1) 0%, rgba(194,1,1,1) 100%);
-    color: white;
-   }
-
-   .palabra_estrategico{
-    background-image: url("../img/estrategico.png");
-    background-size:100% 100%;
-    background-repeat: no-repeat;
-    align-items: flex-end;
-    align-content:flex-end;
-    }
-   .palabra_misional{
-    background-image: url("../img/misional.png");
-    background-size:auto 100%;
-    background-repeat: no-repeat;
-    align-items: flex-end;
-    align-content:flex-end;
-    }
-   .palabra_apoyo{
-    background-image: url("../img/apoyo.png");
-    background-size:auto 100%;
-    background-repeat: no-repeat;
-    align-items: flex-end;
-    align-content:flex-end;
-    }
-
    .container a:hover{
     color: black;
     }
@@ -100,18 +64,20 @@ a.icono-menu:hover{
     color:white;
     }
 
-   
+
+   .rojo{
+    background: linear-gradient(221deg, rgba(233,233,233,1) 0%, rgba(159,159,159,1) 100%);
+  color: black;}
+   .rojo:hover{
+    background: linear-gradient(221deg, rgba(221,168,100,1) 0%, rgba(209,132,32,1) 100%);
+    color: white;
+   }
 
    .btn-secondary{
        height: 50px;
    }
 
-   .boton-1{
-    background-image: url("../img/boton-1.png");
-    background-size: 100% 100%;
-    
-    background-repeat: no-repeat;
-   }
+ 
 
    /*sh-app*/
 .admin-contenedor{
@@ -125,7 +91,7 @@ a.icono-menu:hover{
     height: 100vh;
     
     flex-shrink: 0;
-    background: #27272A;
+    background: #9f9f9f;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
 }
 @media (min-width: 768px) {
@@ -250,7 +216,7 @@ a.icono-menu:hover{
   }
   .tipo_doc{ 
     width: 100%;
-    background-image:url("../img/tipo_doc.png");
+    background-image:url("../img/logo.png");
     background-size: 70px auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -283,7 +249,7 @@ a.icono-menu:hover{
 }
 
   .value {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: auto;
   }

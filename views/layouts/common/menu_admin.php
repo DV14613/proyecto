@@ -1,6 +1,6 @@
 <div class="barra_lateral">
       <div class="logo">
-        <img class="img-fluid" style="max-width: 120px;" src="<?= BASE_ASSETS . 'img/Cargolap.png'; ?>" alt="">
+        <img class="img-fluid" style="max-width: 120px;" src="<?= BASE_ASSETS . 'img/logo.png'; ?>" alt="">
       </div>
 
       <nav class="nav">
@@ -10,24 +10,25 @@
 
         <div class="nav__entry nav__entry--active">
           <!--Agregar Documento-->
-          <a class="icono-menu" href="<?= BASE_URL . 'Dashboard/gestionDocumentos'; ?>" title="Gestión Documentos"><i class="bi bi-file-earmark-plus"></i></a>
+          <a class="icono-menu" href="<?= BASE_URL . 'Dashboard/RegistrarCliente'; ?>" title="Agregar Cliente"><i class="bi bi-person-plus"></i></a>
 
         </div>
         <div class="nav__entry nav__entry--active">
            <!--Mapa De procesos-->
-          <a class="icono-menu" href="<?= BASE_URL . 'Dashboard/mapaProcesos'; ?>" title="Mapa de Procesos"><i class="bi bi-diagram-3-fill"></i></a>
+          <a class="icono-menu" href="<?= BASE_URL . 'Dashboard/dashboard'; ?>" title="Registrar Servicios"><i class="bi bi-scissors"></i></a>
         </div>
         <div class="nav__entry nav__entry--active">
            <!--Categorias-->
-          <a class="icono-menu" href="<?= BASE_URL . 'Dashboard/gestionCategorias'; ?>" title="Gestión de Categorias"><i class="bi bi-tags"></i></a>
-        </div>
-        <div class="nav__entry nav__entry--active">
-           <!--Tipos Documentos-->
-          <a class="icono-menu tipo_doc" href="<?= BASE_URL . 'Dashboard/gestionTipoDocumento'; ?>" title="Gestión de Tipos Documentales"><img class="tipo_doc" src="" alt=""></a>
+          <a class="icono-menu" href="<?= BASE_URL . 'Dashboard/dashboard'; ?>" title="Venta de productos"><i class="bi bi-cart4"></i></a>
         </div>
         <div class="nav__entry nav__entry--active">
           <!-- Cerrar Sesion -->
-          <a class="icono-menu" href="<?= BASE_URL . 'Dashboard/dashboard'; ?>" title="Cerrar Sesión"><i class="bi bi-box-arrow-left"></i></a>
+          <a class="icono-menu" href="<?= BASE_URL . 'Dashboard/otros'; ?>" title="Otros"><i class="bi bi-tools"></i></a>
+        </div>
+       
+        <div class="nav__entry nav__entry--active">
+          <!-- Cerrar Sesion -->
+          <a class="icono-menu" href="<?= BASE_URL . 'Dashboard/login'; ?>" title="Cerrar Sesión"><i class="bi bi-box-arrow-left"></i></a>
         </div>
       </nav>
 </div>
